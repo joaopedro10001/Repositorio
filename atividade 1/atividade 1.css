@@ -1,0 +1,46 @@
+.MeioContainer
+{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(58, 226, 15, 0.2);
+}
+
+.BordaContainer
+{
+    border: 10px solid green;
+}
+
+.VisualContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(58, 226, 15, 0.2);
+    border: 10px solid green;
+    height: 50%;
+    width: 50%;
+    border-radius: 10% 20%;
+}
+
+.VisualBtn
+{
+    height: 6vh;
+    width: 12vh;
+    background-color: hsla(214, 26%, 95%, 0.671);
+    cursor: pointer;
+    border-radius: 2vh;
+}
+
+.Texto
+{
+    margin-top: 4vh;
+    margin-left: 2vh;
+    border-radius: 50px;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
