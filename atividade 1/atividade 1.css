@@ -1,4 +1,4 @@
-.VisualContainer
+.container
 {
     position: absolute;
     top: 50%;
@@ -8,4 +8,15 @@
     background-color: rgba(58, 226, 15, 0.2);
     border: 10px solid green;
     border-radius: 10% 20%;
+}
+
+.texto
+{
+    font-size: small;
+}
+
+.coluna
+{
+    display: flex;
+    flex-direction: column;
 }

@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="C:\Users\PICHAU\Documents\github\Repositorio\atividade 1\atividade 1.css">
+    <link rel="stylesheet" href="atividade 1.css">
 </head>
 <body>
-    <div class="VisualContainer">
-        <h1>TESTE, teste, Teste</h1>
-            <div class="Texto">
-                <label><input type="text" id="descricao" name="LBdes" placeholder="Descricao do produto" /></label>
-                <label><input type="text"  id="descricao" name="LBdpreco" placeholder="preco do produto" /></label>
+    <form action="submit" method="post">
+        <div class="container">
+            <div class="coluna">
+                    <label>Descrição:</label>
+                    <input type="text" id="descricao" name="LBdes" placeholder="Descricao do produto" size="80" />
+                <label>Preço:</label>
+                    <input type="text"  id="descricao" name="LBdpreco" placeholder="preco do produto" size="10" />
             </div>
-        <button id="cadastrar" class="VisualBtn">Cadastrar</button>
-        <button id="Deletar" class="VisualBtn">Deletar</button>
-    </div>
+            <button id="cadastrar" class="VisualBtn">Cadastrar</button>
+            <button id="Deletar" class="VisualBtn">Deletar</button>
+        </div>
+    </form>
 </body>
 </html>
