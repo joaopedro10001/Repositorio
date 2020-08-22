@@ -8,15 +8,42 @@
     background-color: rgba(58, 226, 15, 0.2);
     border: 10px solid green;
     border-radius: 10% 20%;
-}
-
-.texto
-{
-    font-size: small;
+    width: 420px;
+    height: 220px;
 }
 
 .coluna
 {
     display: flex;
     flex-direction: column;
+}
+
+.linha
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.margemCima
+{
+    margin-top: 10%;
+}
+
+.btnCadastra
+{
+    margin-left: 3px;
+    margin-top: 5%;
+    border-radius: 3px 2px;
+    background-color: rgb(240, 240, 240);
+    height: 20px;
+    width: 80px;
+}
+
+.btnDeletar
+{
+    margin-top: 5%;
+    margin-left: 60%;
+    background-color: rgb(240, 240, 240);
+    height: 20px;
+    width: 80px;
 }

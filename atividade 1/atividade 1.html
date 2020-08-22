@@ -9,14 +9,35 @@
 <body>
     <form action="submit" method="post">
         <div class="container">
-            <div class="coluna">
+            <div class="margemCima">
+                <div class="coluna">
+        
                     <label>Descrição:</label>
                     <input type="text" id="descricao" name="LBdes" placeholder="Descricao do produto" size="80" />
-                <label>Preço:</label>
+
+                    <label>Preço:</label>
                     <input type="text"  id="descricao" name="LBdpreco" placeholder="preco do produto" size="10" />
+                        
+                
+                <div class="linha">
+                    <label class="texto">Tipo de Produto:</label>
+                    <select>
+                    <option value="1">Perecível</option>
+                    <option value="2">Não Perecível</option>
+                    <option value="3">Lançamento</option>
+                    </select>
+                    
+                    <input type="checkbox" id="test1" name="check" >
+                    <label for="test1">Bloqueado</label>
+
+                </div>
+            
+                <div class="linha">
+                    <button id="cadastrar" class="btnCadastra">Cadastrar</button>
+ 
+                    <button id="Deletar" class="btnDeletar">Deletar</button>
+                </div>
             </div>
-            <button id="cadastrar" class="VisualBtn">Cadastrar</button>
-            <button id="Deletar" class="VisualBtn">Deletar</button>
         </div>
     </form>
 </body>
